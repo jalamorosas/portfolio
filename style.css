@@ -1,21 +1,22 @@
 /*Menu Button*/
+
 .dropbtn {
     background-color: red;
     color: white;
     padding: 9px;
     font-size: 18px;
     border: none;
-    font-family: Helvetica, Arial, sans-serif; 
-    font-weight: bold; 
-    font-style : italic;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .dropdown {
     position: center;
     display: inline-block;
-    font-family: Helvetica, Arial, sans-serif; 
-    font-weight: bold; 
-    font-style : italic;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .dropdown-content {
@@ -23,7 +24,7 @@
     position: center;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -33,23 +34,33 @@
     text-decoration: none;
     display: block;
     font-style: normal;
-
 }
-.dropdown-content a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
-.dropdown:hover .dropbtn {background-color: lightcoral;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: lightcoral;
+}
 
 @font-face {
-    font-family: 'Futura'; /*a name to be used later*/
-    src: url('Futura Heavy.ttf'); /*URL to font*/
+    font-family: 'Futura';
+    /*a name to be used later*/
+    src: url('Futura Heavy.ttf');
+    /*URL to font*/
 }
+
 /* Styles Header */
+
 h1 {
-    font-family: Helvetica, Arial, sans-serif; 
-    font-weight: bold; 
-    font-style : italic;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 /*.container {
@@ -58,17 +69,20 @@ h1 {
     height: 120px;
 }
 */
+
 /* resize images */
+
 .container img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+
 /*centers text*/
+
 body {
     text-align: center;
-
 }
 
 iframe {
