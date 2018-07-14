@@ -81,9 +81,6 @@ h1 {
 
 /*centers text*/
 
-body {
-    text-align: center;
-}
 
 iframe {
     width: 50%;
@@ -94,16 +91,26 @@ iframe {
     color: red;
 }
 
-.para1 {
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.hype {
+    width:100px; /* you can use % */
+    height: auto;
+    float: left;
 }
 
-.para2 {
+#para1 {
+    float: right;
     background-color: white;
-    padding: 10px;
+    /*padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */
+}
+
+#para2 {
+    float: right;
+    background-color: white;
+    /*padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */
 }
 
 .text {
@@ -111,11 +118,3 @@ iframe {
     font-style: bold;
 }
 
-.image {
-    float: left;
-    margin-right: 15px;
-    width: 40%;
-    height: 40%;
-    border-radius: 5px;
-
-}
