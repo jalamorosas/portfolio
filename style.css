@@ -1,120 +1,98 @@
-/*Menu Button*/
-
-.dropbtn {
-    background-color: red;
-    color: white;
-    padding: 9px;
-    font-size: 18px;
-    border: none;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-style: italic;
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.788);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: .85em;
 }
 
-.dropdown {
-    position: center;
-    display: inline-block;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.dropdown-content {
-    display: none;
-    position: center;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-style: normal;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: lightcoral;
-}
-
-@font-face {
-    font-family: 'Futura';
-    /*a name to be used later*/
-    src: url('Futura Heavy.ttf');
-    /*URL to font*/
-}
-
-/* Styles Header */
-
-h1 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-style: italic;
-}
-
-/*.container {
-    align-content: center;
-    width: 200px;
-    height: 120px;
-}
-*/
-
-/* resize images */
-
-.container img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-/*centers text*/
-
-
-iframe {
-    width: 50%;
-    height: 1000px;
-}
-
-#redtxt {
-    color: red;
-}
-
-.img {
-    width:100px; /* you can use % */
-    height: auto;
+li {
     float: left;
 }
 
-#para1 {
-    float: right;
-    background-color: white;
-    /*padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    */
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
 }
 
-#para2 {
-    float: right;
-    background-color: white;
-    /*padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    */
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    color: rgb(138, 138, 138);
 }
 
-.text {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: bold;
+.active {
+    color: rgb(138, 138, 138);
 }
 
+body {
+    margin:0;
+    left: 0;
+    height: 100%;
+}
+
+body, html {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Hind', sans-serif;
+    font-size: 4em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("aLUDwDa.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+.nav{
+    background-color: rgba(0, 0, 0, 0.788);
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.active {
+    color: grey;
+}
+body {
+    margin:0;
+}
+*/
