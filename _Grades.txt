@@ -1,0 +1,39 @@
+Portfolio final grade: 88
+
+Comments:  
+
+You clearly had advanced knowledge of the materials covered in class before joining the program, but you let that knowledge be an excuse for not paying attention to the assignments and following all the directions; that hurt your grade and kept you from achieving a perfect score.
+
+########
+
+Code Quality:  Does it follow proper HTML and CSS rules, including the Clean HTML Tips and other issues noted in class?
+
+Grade: 90
+(50% of overall grade)
+
+Points deducted for these items:
+    -5 Missing </div> tags on all pages.
+    -5 Use of inline styles instead of CSS styles on all pages.
+
+########
+
+Design and Accessibility:  Does it incorporate the CSS techniques covered in class and incorporate accessibility support for at least one of the areas we discussed?
+
+Grade: 100
+(25% of overall grade)
+
+Points deducted for these items:
+
+########
+
+Advanced CSS:  Does it use advanced css techniques, like animations/transitions and media queries for mobile responsiveness?
+
+Grade: 70
+(25% of overall grade)
+
+Points deducted for these items:
+    -50 Media queries / mobile responsive design not included
+
+Bonus points awarded for these items:
+    +10 Inclusion of both animations and transitions
+    +10 Advanced use of CSS styling
