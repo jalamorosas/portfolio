@@ -1,8 +1,8 @@
-Portfolio final grade: 88
+Portfolio final grade: 100
 
 Comments:  
 
-You clearly had advanced knowledge of the materials covered in class before joining the program, but you let that knowledge be an excuse for not paying attention to the assignments and following all the directions; that hurt your grade and kept you from achieving a perfect score.
+You clearly had advanced knowledge of the materials covered in class before joining the program, You could have done more and received a perfect score on the first part.
 
 ########
 
@@ -28,11 +28,11 @@ Points deducted for these items:
 
 Advanced CSS:  Does it use advanced css techniques, like animations/transitions and media queries for mobile responsiveness?
 
-Grade: 70
+Grade: 120
 (25% of overall grade)
 
 Points deducted for these items:
-    -50 Media queries / mobile responsive design not included
+    None
 
 Bonus points awarded for these items:
     +10 Inclusion of both animations and transitions
